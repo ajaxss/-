@@ -1,0 +1,59 @@
+
+.pay_title{
+    overflow: hidden;
+    font-size: 0.08rem;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical
+}
+.pay_ftis{
+    padding: 0 0 0 0.2rem;
+    position: relative;
+
+}
+
+.pay_stiss{
+    position: absolute;
+    bottom: 0;
+    color: #f54f0d;
+    border: 1px solid red;
+
+}
+.pay_fontf{
+    margin-left: 70px;
+}
+.pay_font{
+    width: '2.48rem';
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.08rem;
+    color: rgb(105, 104, 104);
+}
+.pay_more{
+    display: flex;
+    justify-content: space-between;
+}
+.pay_more_son1{
+    padding:0.4em 0;
+}
+.pay_more_son{
+    padding:0.4em 1em;
+    border-radius: 0.3rem;
+    border:1px solid #f54f0d;
+}
+.pay_more_son_color{
+    color: #f54f0d;
+}
+.pay_more_desc{
+    width: 6.8rem;
+    margin-left: 0.3rem;
+    position: fixed;
+    z-index: 99999;
+    bottom: 0.625rem;
+}
+.dingdan{
+    height: 11rem;
+    overflow-y: scroll;
+}

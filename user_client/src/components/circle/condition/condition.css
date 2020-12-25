@@ -1,0 +1,26 @@
+.am-search {
+    border-bottom: 1px solid #ddd;
+    width: 300px;
+    background-color: transparent;
+    
+  }
+  .sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 30px 0 18px 0;
+  }
+  .am-search-cancel{
+      color: orange;
+  }
+
+ .content{
+   height: 566px;
+   width: 100%;
+   flex-wrap: wrap;
+   background-color: #fff;
+   display: flex;
+   flex-direction: row;
+   overflow: hidden;
+   overflow-y: scroll;
+   justify-content: center;
+ }

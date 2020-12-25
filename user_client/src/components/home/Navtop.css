@@ -1,0 +1,22 @@
+.Router1{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Router1-left{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Router1-right{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 15px;
+}

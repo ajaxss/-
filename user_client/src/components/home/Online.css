@@ -1,0 +1,18 @@
+.online1{
+    padding: 10px;
+    height: 9.375rem;
+    overflow-y: scroll;
+}
+
+.online1 .video{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.online1 video{
+    width: 150px;
+    height: 200px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}

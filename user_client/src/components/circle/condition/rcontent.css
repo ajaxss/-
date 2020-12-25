@@ -1,0 +1,53 @@
+.rcontent-rev{
+    width: 88%;
+    height: 250px;
+    margin-top: -66%;
+}
+
+.rcontent-rev .rcontent-revf{
+    display: flex;
+    padding: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b8b5b5;
+}
+
+.rcontent-reimg{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid gray;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.rcontent-rename{
+    margin-left: 40px;
+    width: 90%;
+    
+}
+
+.rcontent-reheacon{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rcontent-rehead{
+    width: 54%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rcontent-rehead .rcontent-remyf{
+    border:1px solid orange;
+    border-radius: 20%;
+    color: orange;
+}
+

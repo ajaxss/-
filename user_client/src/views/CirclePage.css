@@ -1,0 +1,15 @@
+.am-tabs-default-bar-tab{
+    font-size: 1em;
+    color: grey;
+}
+
+.am-tabs-default-bar-tab-active{
+    color:orange;
+    font-size: 1em;
+}
+
+
+
+.am-tabs-default-bar-underline{
+    border: 1px #AEB2B3 solid;
+}

@@ -1,0 +1,187 @@
+2020-11-22 18:10:15,600 ERROR 11004 [-/::1/-/17ms GET /addcart?u_id=1&s_id=8&co_num=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list'
+    at Query.Sequence._packetToError (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at D:\maikeiserve\egg-mysql\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\maikeiserve\egg-mysql\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\maikeiserve\egg-mysql\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\maikeiserve\egg-mysql\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\maikeiserve\egg-mysql\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\maikeiserve\egg-mysql\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\maikeiserve\egg-mysql\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: update cart set ca_num=NaN where ca_id=3
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "update cart set ca_num=NaN where ca_id=3"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11004
+hostname: PC-201710041825
+
+2020-11-22 18:10:15,610 ERROR 11004 [-/::1/-/27ms GET /addcart?u_id=1&s_id=7&co_num=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list'
+    at Query.Sequence._packetToError (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at D:\maikeiserve\egg-mysql\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\maikeiserve\egg-mysql\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\maikeiserve\egg-mysql\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\maikeiserve\egg-mysql\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\maikeiserve\egg-mysql\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\maikeiserve\egg-mysql\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\maikeiserve\egg-mysql\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: update cart set ca_num=NaN where ca_id=6
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "update cart set ca_num=NaN where ca_id=6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11004
+hostname: PC-201710041825
+
+2020-11-22 18:11:51,769 ERROR 11004 [-/::1/-/7ms GET /addcart?u_id=1&s_id=8&co_num=undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list'
+    at Query.Sequence._packetToError (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (D:\maikeiserve\egg-mysql\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at D:\maikeiserve\egg-mysql\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\maikeiserve\egg-mysql\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\maikeiserve\egg-mysql\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\maikeiserve\egg-mysql\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\maikeiserve\egg-mysql\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\maikeiserve\egg-mysql\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\maikeiserve\egg-mysql\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: update cart set ca_num=NaN where ca_id=3
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'NaN' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "update cart set ca_num=NaN where ca_id=3"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11004
+hostname: PC-201710041825
+
+2020-11-22 21:57:05,652 ERROR 9284 nodejs.ClusterClientNoResponseError: client no response in 393753ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\maikeiserve\egg-mysql\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9284
+hostname: PC-201710041825
+
+2020-11-23 21:56:29,696 ERROR 8956 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8956
+hostname: PC-201710041825
+
+2020-11-24 10:08:44,526 ERROR 6308 [-/::1/-/6ms GET /getconditionf] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT c.c_content,c.c_cover,c.addtimes,c.u_id FROM `condition` AS c JOIN friends AS f WHERE f.u_id= undefined or f.u1_id = undefined 
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT c.c_content,c.c_cover,c.addtimes,c.u_id FROM `condition` AS c JOIN friends AS f WHERE f.u_id= undefined or f.u1_id = undefined "
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 6308
+hostname: SD-20200528KJLZ
+
+2020-11-24 10:20:21,582 ERROR 6308 [-/::1/-/12ms GET /getconditionf] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\03组-react项目代码\egg-mysql\egg-mysql1\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT c.c_content,c.c_cover,c.addtimes,c.u_id FROM `condition` AS c JOIN friends AS f WHERE f.u_id= undefined or f.u1_id = undefined 
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT c.c_content,c.c_cover,c.addtimes,c.u_id FROM `condition` AS c JOIN friends AS f WHERE f.u_id= undefined or f.u1_id = undefined "
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 6308
+hostname: SD-20200528KJLZ
+

@@ -1,0 +1,15 @@
+.pub-head{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    padding: 0 24px;
+    border-bottom: 1px solid #dfdfdf;
+  }
+
+  .demoTitle:before,
+.demoTitle:after {
+  border-bottom: none;
+}

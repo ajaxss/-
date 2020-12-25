@@ -1,0 +1,18 @@
+.circle{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    border-bottom: 1px solid #F5F5F9;
+}
+
+.circle .span1{
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid orange;
+    color: orange;
+}

@@ -1,0 +1,44 @@
+.cent{
+    height: 10.48rem;
+    overflow-y: scroll;
+}
+
+.shop{
+    width: 3.2rem;
+    height: 5rem;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+    display: inline-block;
+    border: 0.02rem solid rgb(179, 173, 175);
+}
+.input{
+    width: 5.6rem;
+    height: 0.56rem;
+    box-sizing: border-box;
+    margin-left: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+.button{
+    
+    width: 1.2rem;
+    height: 0.56rem;
+    box-sizing: border-box;
+    position: relative;
+    top: -0.02rem;
+}
+.img{
+    width: 3.2rem;
+    height: 4rem;
+}
+       
+.p{
+    width: 3.2rem;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(19, 18, 19);
+
+}
+.price{
+    color: rgb(243, 56, 56);
+}

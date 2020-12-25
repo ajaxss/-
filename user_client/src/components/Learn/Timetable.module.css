@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    position: relative;
+    height: 76vh;
+    overflow-y: scroll;
+}
+table{
+    border: 0.02rem solid #fff;
+    border-collapse: collapse;
+    margin: auto;
+    box-shadow: 0.03rem 0.03rem 0.1rem rgb(189, 189, 189);
+    background-color: rgb(248, 248, 248);
+}
+th,td{
+    border: 0.04rem solid #ccc;
+    width: 1.6rem;
+    font-size: 0.26rem;
+    line-height: 1rem;
+    text-align: center;
+}
+.out{
+    border-top: 1rem #D6D3D6 solid;
+    width: 0;
+    height: 0;
+    border-left: 2rem #BDBABD solid;
+    position: relative;
+}
+b{
+    font-style: normal;
+    display: block;
+    position: absolute;
+    top: -1.2rem;
+    left: -2.5rem;
+    width: 4rem;
+}
+em{
+    font-style: normal;
+    display: block;
+    position: absolute;
+    top: -0.8rem;
+    left: -3.55rem;
+    width: 4rem;
+}
+.w1, .w2{
+    font-size: 0.3rem;
+    font-weight: 550;
+    padding: 0.8rem 0.25rem 0.5rem ;
+}
+span{
+    font-size: 0.25rem;
+    font-weight: 600;
+}
+.w11{
+    width: 7rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    margin: 0 auto;
+}
+.back1{
+    width: 2.3rem;
+    background: url("../../imgs/learn/dance.png") center center / 1rem 1rem no-repeat;
+}
+.back2{
+    width: 2.3rem;
+    background: url("../../imgs/learn/math.png") center center / 1rem 1rem no-repeat;
+}
+.back3{
+    width: 2.3rem;
+    background: url("../../imgs/learn/painting.png") center center / 1rem 1rem no-repeat;
+}
+.back4{
+    width: 2.3rem;
+    background: url("../../imgs/learn/piano.png") center center / 1rem 1.2rem no-repeat;
+}
+.back5{
+    width: 2.3rem;
+    background: url("../../imgs/learn/music.png") center center / 1rem 1rem no-repeat;
+}
+.back6{
+    width: 2.3rem;
+    background: url("../../imgs/learn/more.png") center center / 1rem 1rem no-repeat;
+}

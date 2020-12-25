@@ -1,0 +1,60 @@
+.like-hed{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+.like-rev{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.like-rev .like-revf{
+    display: flex;
+    padding: 6px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b8b5b5;
+}
+
+.like-reimg{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.like-rename{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.like-rehealike{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.like-rehead{
+    width: 54%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-rehead .like-remyf{
+    border:1px solid orange;
+    border-radius: 20%;
+    color: orange;
+}

@@ -1,0 +1,169 @@
+.cartList {
+    background: #f4f5f7;
+    width: 100%;
+    top: 0.99rem;
+    overflow-y: scroll;
+  }
+  .cartList .cartListItem {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 0.04rem;
+  }
+  .cartList .cartListItem .shopList {
+    width: 100%;
+    height: 7.5rem;
+    overflow-y: scroll;
+    padding: 0 0.09rem;
+    background: #fff;
+  }
+  .cartList .cartListItem .shopList li {
+    width: 100%;
+    height: 2.11rem;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    margin: 10px 0;
+  }
+  .cartList .cartListItem .shopList li .checkbtn {
+    width: 0.4rem;
+    height: 1.11rem;
+    position: relative;
+    top:-0.5rem;
+  }
+  .cartList .cartListItem .shopList li .UnChecked {
+    background: url() no-repeat;
+    background-size: 100% 0.25rem;
+  }
+  .cartList .cartListItem .shopList li .shopImg {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 0 0.1rem;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .cartList .cartListItem .shopList li .shopImg .shopImgShow {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+  .cartList .cartListItem .shopList li .shopImg .shopImgShow img {
+    width: 100%;
+  }
+  .cartList .cartListItem .shopList li .shopInfo {
+    width: 3.6rem;
+    height: 0.6rem;
+    padding: 0.08rem 0;
+    display: inline-block;
+  }
+  .cartList .cartListItem .shopList li .shopInfo .shopTitle {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.14rem;
+  }
+  .cartList .cartListItem .shopList li .shopInfo .shopCoupen {
+    width: 2.08rem;
+    height: 0.12rem;
+    margin: 0.1rem 0;
+  }
+  .cartList .cartListItem .shopList li .shopInfo .shopPrice {
+    width: 2.08rem;
+    height: 0.25rem;
+    display: inline-block;
+
+  }
+  .cartList .cartListItem .shopList li .shopInfo .shopPrice .price {
+    width: 0.8rem;
+    height: 0.21rem;
+    display: inline-block;
+  }
+  .cartList .cartListItem .shopList li .shopInfo .shopPrice .price span {
+    font-size: 0.15rem;
+    color: #f96d16;
+  }
+  .cartList .cartListItem .shopList li .shopInfo .shopPrice .price i {
+    font-size: 0.13rem;
+    color: #999;
+    text-decoration: line-through;
+    font-style: normal;
+  }
+  .cartList .cartListItem .shopList li .shopInfo .shopPrice .shopSelect {
+    width: 2rem;
+    height: 0.6rem;
+    overflow: hidden;
+
+  }
+  .cartList .cartListItem .shopList li .shopInfo .shopPrice .shopSelect .minus {
+    width: 0.45rem;
+    height: 0.5rem;
+    border: 0;
+  }
+  .cartList .cartListItem .shopList li .shopInfo .shopPrice .shopSelect input {
+    width: 0.45rem;
+    height: 0.5rem;
+    text-align: center;
+    border: 0;
+  }
+  .cartList .cartListItem .shopList li .shopInfo .shopPrice .shopSelect .add {
+    width: 0.45rem;
+    height: 0.5rem;
+    border: 0;
+  }
+  .cartList  .sum {
+    width: 100%;
+    height: 3rem;
+    background: #fff;
+    padding-left: 0.1rem;
+  }
+  .cartList  .sum >.input {
+    width: 0.4rem;
+    height: 0.5rem;
+    position: relative;
+    top:-0.5rem;
+  }
+  .cartList  .sum .checkPrice {
+    display: inline-block;
+    width: 3rem;
+    height: 1rem;
+    line-height: 0.41rem;
+    padding: 0.08rem 0;
+    margin: 0.4rem;
+  }
+  .cartList  .sum .checkPrice .totalPrice {
+      
+    width: 3rem;
+    height: 0.8rem;
+    line-height: 0.36rem;
+    font-size: 0.16rem;
+    color: #f96d16;
+  }
+  .cartList  .sum .checkPrice .totalPrice .allsum {
+    width: 3rem;
+    font-size: 0.13rem;
+    color: #333;
+  }
+  .cartList  .sum .checkPrice .fee {
+    width: 3rem;
+    font-size: 0.13rem;
+    color: #999;
+  }
+  .cartList  .sum .btnCheck {
+    width: 1.15rem;
+    height: 0.49rem;
+    background: #f96d16;
+    line-height: 0.49rem;
+    font-size: 0.18rem;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .cartList  .sum .btnNoCheck {
+    width: 1.15rem;
+    height: 0.49rem;
+    background: #999999;
+    line-height: 0.49rem;
+    font-size: 0.18rem;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+
+  }

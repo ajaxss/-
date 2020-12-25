@@ -1,0 +1,22 @@
+.navigator{
+    /* height: 1.3rem; */
+    z-index: 9;
+}
+.top{
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(144, 165, 184); */
+}
+.topnav, .topnav1{
+    font-size: 0.3rem;
+    padding-bottom: 0.2rem; 
+}
+.topnav1{
+    border-bottom: 0.08rem solid rgb(247, 222, 82);
+}
+.stubar{
+    box-shadow: 0 0 0.1rem rgb(189, 189, 189);
+}
+

@@ -1,0 +1,98 @@
+.am-search {
+    border-bottom: 1px solid #ddd;
+    width: 300px;
+    background-color: transparent;
+    
+  }
+  .sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 30px 0 18px 0;
+  }
+  .am-search-cancel{
+      color: orange;
+  }
+
+  .sticky-list .sticky-container .am-list-item { padding-left: 0; }
+.sticky-list .sticky-container .am-list-line { padding-right: 0; }
+.sticky-list .sticky-container .am-list-line .am-list-content { padding-top: 0; padding-bottom: 0; }
+.sticky-list .sticky-container .sticky { padding: 7px 15px; transform: none; }
+
+  .circle{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    border-bottom: 1px solid #F5F5F9;
+}
+
+.circle .span1{
+    width: 56px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid orange;
+    color: orange;
+}
+ .rel-content{
+   height: 566px;
+   width: 100%;
+   flex-wrap: wrap;
+   background-color: #fff;
+   display: flex;
+   flex-direction: row;
+   overflow: hidden;
+   overflow-y: scroll;
+   justify-content: center;
+ }
+
+
+ .rel-mail{
+  width: 300px;
+  height: 70px;
+  padding-bottom: 6px;
+  margin-top: -260px;
+  
+}
+.rel-mail .rel-fri{
+  display: flex;
+  padding: 6px;
+  align-items: center;
+  border-bottom: 1px solid #b8b5b5;
+}
+.rel-img{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.rel-name{
+  display: flex;
+  width: 100%;
+  height: 60%;
+  justify-content: space-between;
+}
+.rel-heacon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rel-head{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.rel-head .rel-myf{
+  border:1px solid orange;
+  border-radius: 20%;
+  color: orange;
+}
+
